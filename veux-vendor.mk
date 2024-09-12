@@ -1366,12 +1366,12 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    c2_manifest_vendor \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss@4.0-service
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    c2_manifest_vendor.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    manifest_vendor.xiaomi.hardware.mlipay.xml \
+    vendor.qti.diag.hal.service.xml \
+    vendor.qti.gnss@4.0-service.xml
 
 PRODUCT_PACKAGES += \
     libEGL_adreno_libEGL_adreno_symlink32 \

@@ -1,0 +1,1 @@
+proprietary/vendor/lib64/camera/components/com.qti.node.mialgocontrol.so filter=lfs diff=lfs merge=lfs -text
