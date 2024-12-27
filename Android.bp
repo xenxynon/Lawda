@@ -884,7 +884,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libFileMux_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1345,7 +1345,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmrtpdecoder_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1362,7 +1362,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmrtpencoder_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1532,7 +1532,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdcodecv4l2_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1549,7 +1549,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdcommonutils_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1566,7 +1566,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+                android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdconfigutils_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1583,7 +1583,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfddisplayconfig_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1600,7 +1600,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdhdcpcp.so"],
 			shared_libs: [ ],
 		},
@@ -1617,7 +1617,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdhdcpservice_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1634,7 +1634,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdmminterface_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1651,7 +1651,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdmmservice_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1668,7 +1668,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdmmsrc_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1685,7 +1685,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdmodulehdcpsession.so"],
 			shared_libs: [ ],
 		},
@@ -1702,7 +1702,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdrtsp_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1719,7 +1719,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdsessionmodule.so"],
 			shared_libs: [ ],
 		},
@@ -1736,7 +1736,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdsourcesession_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1753,7 +1753,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdsourcesm_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1770,7 +1770,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfduibcinterface_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1787,7 +1787,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfduibcsink_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1804,7 +1804,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfduibcsinkinterface_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1821,7 +1821,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfduibcsrc_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1838,7 +1838,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfduibcsrcinterface_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1855,7 +1855,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/libwfdutils_proprietary.so"],
 			shared_libs: [ ],
 		},
@@ -1963,7 +1963,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -1980,7 +1980,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so"],
 			shared_libs: [ ],
 		},
@@ -11470,7 +11470,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libmmosal.so"],
 			shared_libs: [ ],
 		},
@@ -11487,7 +11487,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libmmparser_lite.so"],
 			shared_libs: [ ],
 		},
@@ -11504,7 +11504,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libmmrtpdecoder.so"],
 			shared_libs: [ ],
 		},
@@ -11521,7 +11521,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libmmrtpencoder.so"],
 			shared_libs: [ ],
 		},
@@ -11538,7 +11538,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdavenhancements.so"],
 			shared_libs: [ ],
 		},
@@ -11555,7 +11555,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdclient.so"],
 			shared_libs: [ ],
 		},
@@ -11572,7 +11572,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdcommonutils.so"],
 			shared_libs: [ ],
 		},
@@ -11589,7 +11589,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdconfigutils.so"],
 			shared_libs: [ ],
 		},
@@ -11606,7 +11606,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfddisplayconfig.so"],
 			shared_libs: [ ],
 		},
@@ -11623,7 +11623,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdmminterface.so"],
 			shared_libs: [ ],
 		},
@@ -11640,7 +11640,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdmmsink.so"],
 			shared_libs: [ ],
 		},
@@ -11657,7 +11657,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdmmsrc_system.so"],
 			shared_libs: [ ],
 		},
@@ -11674,7 +11674,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdnative.so"],
 			shared_libs: [ ],
 		},
@@ -11691,7 +11691,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdrtsp.so"],
 			shared_libs: [ ],
 		},
@@ -11708,7 +11708,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdservice.so"],
 			shared_libs: [ ],
 		},
@@ -11725,7 +11725,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdsinksm.so"],
 			shared_libs: [ ],
 		},
@@ -11742,7 +11742,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfduibcinterface.so"],
 			shared_libs: [ ],
 		},
@@ -11759,7 +11759,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfduibcsink.so"],
 			shared_libs: [ ],
 		},
@@ -11776,7 +11776,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfduibcsinkinterface.so"],
 			shared_libs: [ ],
 		},
@@ -11793,7 +11793,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfduibcsrc.so"],
 			shared_libs: [ ],
 		},
@@ -11810,7 +11810,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfduibcsrcinterface.so"],
 			shared_libs: [ ],
 		},
@@ -11878,7 +11878,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so"],
 			shared_libs: [ ],
 		},
