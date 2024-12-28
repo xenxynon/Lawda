@@ -2848,9 +2848,9 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/camera/components/com.qti.node.mialgocontrol.so"],
-			shared_libs: [ ],
+			shared_libs: ["libcamera_metadata", "libchilog", "libcutils", "libcom.qti.chinodeutils", "libcamera_scene", "libc++_shared", "libmibokeh_712", "libjpeg", "libpng", "libz", "libpiex", "libexpat", "libdng_sdk2vendor", "libEGL", "libGLESv2", "libnativewindow", "libft2vendor", "libutils", "libvideofilter_only", "libmpbase", "libarcsoft_beautyshot", "libanc_dc_base", "libwa_widelens_undistort", "libalhLDC", "libalLDC", "libarcsoft_hdr_detection", "libarcsoft_high_dynamic_range", "libarcsoft_low_light_hdr", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
